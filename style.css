@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  background: url('https://cdn.glitch.com/5ca3a8a9-322f-44c9-9c06-a9ba894a6756%2Faziz-acharki-196320-unsplash%20(1).jpg?1551148968996') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+#image_div img {
+  		/* Set rules to fill background */
+			max-height: 100vh;
+			max-width: 120vw;
+			/* Set up proportionate scaling */
+			width: auto;
+			height: auto;
+			/* Set up positioning */
+			position: static;
+			top: 0;
+			left: 0;
+      right: 0;
+  
+}
